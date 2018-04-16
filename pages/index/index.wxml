@@ -8,9 +8,22 @@
     </block>
   </view>
   <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-  </view>
-  <view>
-    <Button bindtap="navi"> 点击跳转 </Button>
+    <view class="area-up">
+      <Button bindtap="navi_face" class="btn"> 人脸打卡 </Button>
+    </view>
+    <view class="area-bottom"> 
+      <view class="area-bottom-left">
+        <view class="area-left-up">
+          <Button bindtap="navi_study" class="btn"> 学习打卡 </Button>
+          <Button bindtap="navi_sport" class="btn"> 运动打卡 </Button>
+        </view>
+        <view class="area-left-bottom">
+          <Button bindtap="navi_record" class="btn"> 个人打卡记录 </Button>
+        </view>
+      </view>
+      <view class="area-bottom-right">
+        <Button bindtap="navi_rank" class="btn"> 每日排行 </Button>
+      </view>
+    </view>
   </view>
 </view>

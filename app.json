@@ -1,14 +1,18 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/face/face"
+    "pages/face/face",
+    "pages/study/study",
+    "pages/sport/sport",
+    "pages/record/recort",
+    "pages/rank/rank"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   },
   "networkTimeout": {
     "request": 10000,

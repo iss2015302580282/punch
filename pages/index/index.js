@@ -4,7 +4,6 @@ const app = getApp()
 
 Page({
   data: {
-    motto: 'Hello World',
     userInfo: {},
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
@@ -75,9 +74,29 @@ Page({
       hasUserInfo: true
     })
   },
-  navi: function() {
+  navi_face: function() {
     wx.navigateTo({
       url: '../face/face'
     })
-  }
+  },
+  navi_study: function () {
+    wx.navigateTo({
+      url: '../study/study'
+    })
+  },
+  navi_sport: function () {
+    wx.navigateTo({
+      url: '../sport/sport'
+    })
+  },
+  navi_record: function () {
+    wx.navigateTo({
+      url: '../record/record'
+    })
+  },
+  navi_rank: function () {
+    wx.navigateTo({
+      url: '../rank/rank'
+    })
+  },
 })

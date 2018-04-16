@@ -1,1 +1,24 @@
 /* pages/face/face.wxss */
+.Grid {
+  display: flex;
+}
+
+.Grid-cell {
+  flex: 1;
+}
+
+.Grid-cell.u-full {
+  flex: 0 0 100%;
+}
+
+.Grid-cell.u-1of2 {
+  flex: 0 0 50%;
+}
+
+.Grid-cell.u-1of3 {
+  flex: 0 0 33.3333%;
+}
+
+.Grid-cell.u-1of4 {
+  flex: 0 0 25%;
+}
